@@ -10,7 +10,7 @@ import sqlite3
 def view_records():
     conn = sqlite3.connect('data.db')
     cursor = conn.cursor()
- 
+  
     cursor.execute("SELECT * FROM Student_Data")
     records = cursor.fetchall()
  
