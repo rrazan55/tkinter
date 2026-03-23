@@ -138,7 +138,7 @@ nationality_label.grid(row=2, column=1)
 
 age_spinbox = tkinter.Spinbox(user_info_frame, from_=18, to=110)
 age_spinbox.grid(row=3, column=0)
-nationality_combobox = ttk.Combobox(user_info_frame, values=["China", "Egypt", "Palestine", "Jordan", "Syria"])
+nationality_combobox = ttk.Combobox(user_info_frame, values=["sudan", "Egypt", "Palestine", "Jordan", "Syria","yemen","united kingdom","united states","lebanon","south sudan",""])
 nationality_combobox.grid(row=3, column=1)
 
 for widget in user_info_frame.winfo_children():
